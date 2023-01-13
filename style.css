@@ -1,0 +1,130 @@
+<style>
+        html{
+            height: 50%;
+        }
+        /* css reset */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(img/background.jpg.jpg);
+            background-repeat: no-repeat;
+            
+        }
+
+        .left {
+            display: inline-block;
+            /*border: 2px solid red;*/
+            position: absolute;
+            left: 34px;
+            top: 2px;
+
+        }
+
+        .left img {
+            width: 100px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            margin: -6px -6px;
+        }
+
+        .mid {
+            display: block;
+            width: 39%;
+            margin: 20px auto;
+            /*border: 2px solid green;*/
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /*border: 2px solid yellow;*/
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+
+        }
+
+        .btn {
+            margin: 18px 20px;
+            background-color: black;
+            color: white;
+            padding: 7px 65px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(78, 76, 76);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 190px 1082px;
+            padding: 25px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .btn2 {
+            text-align: center;
+            display: block;
+            width: 515px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+            cursor:pointer;
+            
+
+        }
+        .btn2:hover{
+            background-color: rgb(78, 76, 76);
+        }
+    </style>
